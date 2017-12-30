@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 // import Light from "./Light";
-import Planets from "./Planets";
+// import Planets from "./Planets";
+import Characters from "./Character/CharactersContainer";
+import CharactersContainer from "./Character/CharactersContainer";
 
 class App extends Component {
   render() {
@@ -13,7 +15,8 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         {/* <Light /> */}
-        <Planets />
+        {/* <Planets /> */}
+        <CharactersContainer />
       </div>
     );
   }
