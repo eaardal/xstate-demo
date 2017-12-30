@@ -4,7 +4,7 @@ This repo has some demo implementations using [xstate](https://github.com/davidk
 
 * [Light](./src/Light.jsx) is a red-yellow-green light demo
 * [Planets](./src/Planets.jsx) is a demo using fetch to get planets from [the star wars api](https://swapi.co/)
-* [Characters]('./src/Characters.jsx) is a demo using Redux to do fetch to get characters from the star wars universe from [the star wars api](https://swapi.co/)
+* [Characters]('./src/Character/Characters.jsx) is a demo using Redux to do fetch to get characters from the star wars universe from [the star wars api](https://swapi.co/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
